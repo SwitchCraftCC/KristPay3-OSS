@@ -57,7 +57,7 @@ val kristpayVersion: String by project
 
 repositories {
   maven {
-    url = uri("https://maven.pkg.github.com/SwitchCraftCC/KristPay3-OSS/releases")
+    url = uri("https://maven.pkg.github.com/SwitchCraftCC/KristPay3-OSS")
     content {
       includeGroup("io.sc3")
     }
