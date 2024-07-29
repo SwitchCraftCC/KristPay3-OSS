@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (c) 2024 tmpim All rights reserved.
+ Use of this source code is governed by a BSD-style
+ license that can be found in the LICENSE file.
+-->
+
+<Configuration name="Dev">
+    <Loggers>
+        <Logger name="io.sc3" level="debug" additivity="false">
+            <AppenderRef ref="DebugFile" level="${sys:fabric.log.debug.level:-debug}" />
+            <AppenderRef ref="SysOut" />
+            <AppenderRef ref="LatestFile" level="${sys:fabric.log.level:-info}" />
+            <AppenderRef ref="ServerGuiConsole" />
+        </Logger>
+    </Loggers>
+</Configuration>

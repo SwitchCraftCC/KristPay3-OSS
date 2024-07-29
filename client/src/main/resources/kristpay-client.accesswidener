@@ -1,0 +1,7 @@
+accessWidener v1 named
+
+accessible field net/minecraft/client/gui/hud/PlayerListHud visible Z
+
+# Remove this when https://github.com/FabricMC/fabric/pull/2695 is merged
+accessible method net/minecraft/sound/SoundEvent of (Lnet/minecraft/util/Identifier;F)Lnet/minecraft/sound/SoundEvent;
+accessible method net/minecraft/sound/SoundEvent of (Lnet/minecraft/util/Identifier;)Lnet/minecraft/sound/SoundEvent;

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "kristpay-client",
+  "version": "${version}",
+
+  "name": "KristPay (Client)",
+  "description": "Krist in-game wallet management - Client Mod",
+  "authors": [
+    "SwitchCraft",
+    "Emma"
+  ],
+  "contact": {
+    "homepage": "https://sc3.io/",
+    "sources": "https://github.com/SwitchCraftCC/KristPay3/"
+  },
+
+  "license": "UNLICENSED",
+  "icon": "assets/kristpay-client/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [{
+        "adapter": "kotlin",
+        "value": "io.sc3.kristpay.fabric.client.KristPayClientMod"
+    }],
+    "modmenu": [
+      "io.sc3.kristpay.fabric.client.config.ModMenu"
+    ]
+  },
+  "mixins": [
+    "kristpay-client.mixins.json"
+  ],
+  "accessWidener" : "kristpay-client.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=${fabric_loader}",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=${fabric_language_kotlin}",
+    "minecraft": "${minecraft_target_version}",
+    "java": ">=17",
+    "computercraft": "${cc_target_version}",
+    "kristpay-shared": "${version}"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "coins_tiny":      { "sounds": ["kristpay-client:coins_tiny"] },
+  "coins_medium":    { "sounds": ["kristpay-client:coins_medium"] },
+  "coins_large":     { "sounds": ["kristpay-client:coins_large"] },
+  "apple_pay":       { "sounds": ["kristpay-client:apple_pay"] },
+  "google_pay":      { "sounds": ["kristpay-client:google_pay"] },
+  "eshop_purchased": { "sounds": ["kristpay-client:eshop_purchased"] },
+  "eshop_start":     { "sounds": ["kristpay-client:eshop_start"] },
+  "eshop_trial":     { "sounds": ["kristpay-client:eshop_trial"] },
+  "eshop_wish":      { "sounds": ["kristpay-client:eshop_wish"] }
+}

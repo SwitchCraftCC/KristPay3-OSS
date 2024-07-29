@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "kristpay",
+  "version": "${version}",
+
+  "name": "KristPay",
+  "description": "Krist in-game wallet management",
+  "authors": [
+    "SwitchCraft",
+    "Emma"
+  ],
+  "contact": {
+    "homepage": "https://sc3.io/",
+    "sources": "https://github.com/SwitchCraftCC/KristPay3/"
+  },
+
+  "license": "UNLICENSED",
+
+  "environment": "server",
+  "entrypoints": {
+    "main": [{
+        "adapter": "kotlin",
+        "value": "io.sc3.kristpay.fabric.KristPayMod"
+    }]
+  },
+  "mixins": [
+    "kristpay.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${fabric_loader}",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=${fabric_language_kotlin}",
+    "minecraft": "${minecraft_target_version}",
+    "java": ">=17",
+    "computercraft": "${cc_target_version}",
+    "kristpay-shared": "${version}"
+  }
+}
