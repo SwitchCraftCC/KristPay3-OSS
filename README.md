@@ -46,7 +46,6 @@ kristpay.welfare.return.others | ADMIN | Force another user to return the welfar
 
 ## API Usage
 
-![](https://maven.pkg.github.com/SwitchCraftCC/KristPay3-OSS/api/badge/latest/releases/io/sc3/kristpay-api?name=Latest%20version)
 ```properties
 # gradle.properties
 kristpayVersion = <version>
