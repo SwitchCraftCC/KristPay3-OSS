@@ -22,7 +22,7 @@ import kotlinx.datetime.Clock
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import mu.KLoggable
-import mu.KLogging-
+import mu.KLogging
 import net.minecraft.server.network.ServerPlayerEntity
 import org.jetbrains.exposed.dao.id.EntityID
 import org.jetbrains.exposed.sql.and
