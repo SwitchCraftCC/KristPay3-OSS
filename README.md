@@ -68,3 +68,8 @@ dependencies {
   compileOnly("io.sc3", "kristpay-api", kristpayVersion)
 }
 ```
+
+## License
+
+This mod and its source code is licensed under the 
+[BSD 3-Clause](https://github.com/SwitchCraftCC/KristPay3-OSS/blob/HEAD/LICENSE).
